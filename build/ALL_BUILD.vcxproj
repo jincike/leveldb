@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5CD1FA8F-D1F9-341D-9F92-44DB1FA6FC57}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\GitHub\leveldb-master\leveldb\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule X:/GitHub/leveldb-master/leveldb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-file X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule X:/GitHub/leveldb-master/leveldb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-file X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule X:/GitHub/leveldb-master/leveldb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-file X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule X:/GitHub/leveldb-master/leveldb/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-file X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\ZERO_CHECK.vcxproj">
+      <Project>{43D8D14E-3AA0-3A18-A23B-FE12C8C284B4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\arena_test.vcxproj">
+      <Project>{982D6AB6-F527-35EF-AB31-00A95B1CDEC3}</Project>
+      <Name>arena_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\autocompact_test.vcxproj">
+      <Project>{9E6B8A2C-5633-3052-83F2-C224ACDECF0A}</Project>
+      <Name>autocompact_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\benchmark.vcxproj">
+      <Project>{1D9FCA7D-BD90-3B0B-88AA-C96608B04450}</Project>
+      <Name>benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\benchmark_main.vcxproj">
+      <Project>{426B7D66-C37E-3068-95C0-D23931505E82}</Project>
+      <Name>benchmark_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\bloom_test.vcxproj">
+      <Project>{1645A470-7C85-30DC-BFB7-3DF1480B5302}</Project>
+      <Name>bloom_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\c_test.vcxproj">
+      <Project>{4BDC7052-685E-36AB-89B9-75AB4BCBC665}</Project>
+      <Name>c_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\cache_test.vcxproj">
+      <Project>{5E05C8AC-6D44-3A95-8BBF-D929D74E2B44}</Project>
+      <Name>cache_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\coding_test.vcxproj">
+      <Project>{7692CFC6-83F7-31EA-B3FB-ED08F3CE05E8}</Project>
+      <Name>coding_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\corruption_test.vcxproj">
+      <Project>{AD304D99-817F-3568-970B-653B0496C7D5}</Project>
+      <Name>corruption_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\crc32c_test.vcxproj">
+      <Project>{BDC04BB3-CF54-323C-8E48-4B8A246E1725}</Project>
+      <Name>crc32c_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\db_bench.vcxproj">
+      <Project>{3408D799-E859-3D22-B07D-91CB49BB7CAC}</Project>
+      <Name>db_bench</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\db_test.vcxproj">
+      <Project>{EB5EF678-AE36-35A4-A428-0F3487A9E6C5}</Project>
+      <Name>db_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\dbformat_test.vcxproj">
+      <Project>{8AA2CEF9-7739-3A53-AB85-B07E2914EEA3}</Project>
+      <Name>dbformat_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\env_test.vcxproj">
+      <Project>{CE7796A4-B78E-3229-9095-5E9F1B48862C}</Project>
+      <Name>env_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\env_windows_test.vcxproj">
+      <Project>{7E30B6EF-EB4E-3F3F-BE82-09213C8F2E7F}</Project>
+      <Name>env_windows_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\fault_injection_test.vcxproj">
+      <Project>{09FED2C4-77D4-372E-882D-A689B8709648}</Project>
+      <Name>fault_injection_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\filename_test.vcxproj">
+      <Project>{DFDC8C03-9005-37EB-B247-69C9670F848F}</Project>
+      <Name>filename_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\filter_block_test.vcxproj">
+      <Project>{4F5D43B8-562F-309C-9A7E-11845C0F86DD}</Project>
+      <Name>filter_block_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\gmock.vcxproj">
+      <Project>{38457420-AB8F-3F61-9590-6C19FA6173B1}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\gmock_main.vcxproj">
+      <Project>{5CBA3392-8273-3AC7-AACA-18DD578CDC1E}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\gtest.vcxproj">
+      <Project>{512562D8-83FA-3047-8D3F-66498BC7D3D0}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\gtest_main.vcxproj">
+      <Project>{563B9489-7011-34CD-BFE4-08F723655D9E}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\hash_test.vcxproj">
+      <Project>{441C9924-D0A2-3578-AF93-6EF83E4E0804}</Project>
+      <Name>hash_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\issue178_test.vcxproj">
+      <Project>{4418476E-372D-3A6E-897D-89EEE7BB56D2}</Project>
+      <Name>issue178_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\issue200_test.vcxproj">
+      <Project>{5D2BC8FC-7F57-3D92-8FD3-387BAC199D4A}</Project>
+      <Name>issue200_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\issue320_test.vcxproj">
+      <Project>{0A971659-9F21-3A4A-877A-021703A9EF5A}</Project>
+      <Name>issue320_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\leveldb.vcxproj">
+      <Project>{C1AA0B62-AA4E-36FC-8727-AEE0903FD119}</Project>
+      <Name>leveldb</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\leveldbutil.vcxproj">
+      <Project>{C7D188AE-7E67-301F-89F0-450CCC228C9E}</Project>
+      <Name>leveldbutil</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\log_test.vcxproj">
+      <Project>{0D2729D4-23B6-3738-A40F-8A231060EAD1}</Project>
+      <Name>log_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\logging_test.vcxproj">
+      <Project>{929A183A-9BD2-34C8-9FC6-2405027FD57A}</Project>
+      <Name>logging_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\memenv_test.vcxproj">
+      <Project>{32B4A456-E4F4-3642-B53B-57EE4F1537A2}</Project>
+      <Name>memenv_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\no_destructor_test.vcxproj">
+      <Project>{3B0C79AB-6099-330D-9195-68D35F3BECB3}</Project>
+      <Name>no_destructor_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\recovery_test.vcxproj">
+      <Project>{694A8831-9D6D-3653-98E7-7375C23DD62B}</Project>
+      <Name>recovery_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\skiplist_test.vcxproj">
+      <Project>{78959ADB-EBAD-37A3-BFA6-89CB28DFA441}</Project>
+      <Name>skiplist_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\status_test.vcxproj">
+      <Project>{4D504375-E712-3DD5-AD78-1F9E8DC832EE}</Project>
+      <Name>status_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\table_test.vcxproj">
+      <Project>{C09E38C1-B2B1-3FFF-AF01-352DD5C3581B}</Project>
+      <Name>table_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\version_edit_test.vcxproj">
+      <Project>{B53CFE0B-92FE-3812-9593-E397AE4D853C}</Project>
+      <Name>version_edit_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\version_set_test.vcxproj">
+      <Project>{5AFD724B-FAB5-36F2-BFF0-5DDB4B59D4C4}</Project>
+      <Name>version_set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="X:\GitHub\leveldb-master\leveldb\build\write_batch_test.vcxproj">
+      <Project>{E7069CF1-D688-3046-8647-C8820C4F4DFF}</Project>
+      <Name>write_batch_test</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

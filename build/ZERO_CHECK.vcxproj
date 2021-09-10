@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{43D8D14E-3AA0-3A18-A23B-FE12C8C284B4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>X:\GitHub\leveldb-master\leveldb\build\include;X:\GitHub\leveldb-master\leveldb\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\7860dfc284d5b55c137f5deffab881b4\generate.stamp.rule">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/GitHub/leveldb-master/leveldb/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindGit.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython\Support.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\CXXFeatureCheck.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\GetGitVersion.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\benchmark.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\src\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/GitHub/leveldb-master/leveldb/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindGit.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython\Support.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\CXXFeatureCheck.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\GetGitVersion.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\benchmark.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\src\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/GitHub/leveldb-master/leveldb/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindGit.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython\Support.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\CXXFeatureCheck.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\GetGitVersion.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\benchmark.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\src\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/GitHub/leveldb-master/leveldb/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakePackageConfigHelpers.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckCXXSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindGit.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindPython\Support.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\FindThreads.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\Windows.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;D:\softwareHFY\Cmake\share\cmake-3.20\Modules\WriteBasicConfigVersionFile.cmake;X:\GitHub\leveldb-master\leveldb\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeCXXCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeRCCompiler.cmake;X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\3.20.4\CMakeSystem.cmake;X:\GitHub\leveldb-master\leveldb\cmake\leveldbConfig.cmake.in;X:\GitHub\leveldb-master\leveldb\port\port_config.h.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\AddCXXCompilerFlag.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\CXXFeatureCheck.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\GetGitVersion.cmake;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\cmake\benchmark.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\benchmark\src\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googlemock\cmake\gmock_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\CMakeLists.txt;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\Config.cmake.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\gtest_main.pc.in;X:\GitHub\leveldb-master\leveldb\third_party\googletest\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googlemock\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\googletest\googletest\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\CMakeFiles\generate.stamp;X:\GitHub\leveldb-master\leveldb\build\third_party\benchmark\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

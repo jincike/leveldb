@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPython.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPython/Support.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindThreads.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/googletest/CMakeLists.txt
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/googletest/cmake/Config.cmake.in
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/googletest/cmake/gtest.pc.in
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/googletest/cmake/gtest_main.pc.in
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/googletest/cmake/internal_utils.cmake

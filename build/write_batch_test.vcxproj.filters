@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="X:\GitHub\leveldb-master\leveldb\util\testutil.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="X:\GitHub\leveldb-master\leveldb\db\write_batch_test.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="X:\GitHub\leveldb-master\leveldb\build\include\port\port_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="X:\GitHub\leveldb-master\leveldb\util\testutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="X:\GitHub\leveldb-master\leveldb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AF51CD3B-B2B1-3E06-8AC6-45AFBB7097EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B0565285-89F3-3C09-AD26-06CA6D30FCE9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

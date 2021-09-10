@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CMakeDependentOption.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+X:/GitHub/leveldb-master/leveldb/third_party/googletest/CMakeLists.txt

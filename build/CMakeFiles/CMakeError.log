@@ -1,0 +1,216 @@
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_4a5e7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_4a5e7.dir\Debug\\" /Fd"cmTC_4a5e7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_4a5e7.vcxproj]
+
+
+
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_141e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=crc32c_value /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_141e8.dir\Debug\\" /Fd"cmTC_141e8.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“crc32c.lib” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_141e8.vcxproj]
+
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_1104c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snappy_compress /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_1104c.dir\Debug\\" /Fd"cmTC_1104c.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“snappy.lib” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_1104c.vcxproj]
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_48137.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=malloc /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_48137.dir\Debug\\" /Fd"cmTC_48137.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“tcmalloc.lib” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_48137.vcxproj]
+
+
+
+Determining if the fdatasync exist failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_436b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_436b7.dir\Debug\\" /Fd"cmTC_436b7.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_436b7.vcxproj]
+
+
+File X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_14af0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_14af0.dir\Debug\\" /Fd"cmTC_14af0.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8,19): error C2065: “F_FULLFSYNC”: 未声明的标识符 [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_14af0.vcxproj]
+
+
+File X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the O_CLOEXEC exist failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_49eb8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_49eb8.dir\Debug\\" /Fd"cmTC_49eb8.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8,19): error C2065: “O_CLOEXEC”: 未声明的标识符 [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_49eb8.vcxproj]
+
+
+File X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef O_CLOEXEC
+  return ((int*)(&O_CLOEXEC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_6e35b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_CLANG_THREAD_SAFETY /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"cmTC_6e35b.dir\Debug\\" /Fd"cmTC_6e35b.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue  /EHs-c- -Wthread-safety "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\src.cxx"
+cl : 命令行 error D8021: 无效的数值参数“/Wthread-safety” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_6e35b.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_8b513.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D LEVELDB_HAVE_NO_MISSING_FIELD_INITIALIZERS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"cmTC_8b513.dir\Debug\\" /Fd"cmTC_8b513.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue  /EHs-c- -Wno-missing-field-initializers "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\src.cxx"
+cl : 命令行 error D8021: 无效的数值参数“/Wno-missing-field-initializers” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_8b513.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_bf42d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_bf42d.dir\Debug\\" /Fd"cmTC_bf42d.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_bf42d.vcxproj]
+
+
+
+Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_f9517.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sqlite3_open /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c11 /Fo"cmTC_f9517.dir\Debug\\" /Fd"cmTC_f9517.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TC /errorReport:queue "D:\softwareHFY\Cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: 无法打开文件“sqlite3.lib” [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_f9517.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
+Change Dir: X:/GitHub/leveldb-master/leveldb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/softwareHFY/VS/VSC/MSBuild/Current/Bin/MSBuild.exe cmTC_10475.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.10.0+4242f381a
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30037 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_KYOTOCABINET /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"cmTC_10475.dir\Debug\\" /Fd"cmTC_10475.dir\Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /errorReport:queue  /EHs-c- "X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\src.cxx"
+X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\src.cxx(2,10): fatal error C1083: 无法打开包括文件: “kcpolydb.h”: No such file or directory [X:\GitHub\leveldb-master\leveldb\build\CMakeFiles\CMakeTmp\cmTC_10475.vcxproj]
+
+
+Source file was:
+
+#include <kcpolydb.h>
+
+int main() {
+  kyotocabinet::TreeDB* db = new kyotocabinet::TreeDB();
+  delete db;
+  return 0;
+}
+  

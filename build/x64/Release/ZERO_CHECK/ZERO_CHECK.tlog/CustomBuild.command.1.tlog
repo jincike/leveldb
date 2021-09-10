@@ -1,0 +1,10 @@
+^X:\GITHUB\LEVELDB-MASTER\LEVELDB\BUILD\CMAKEFILES\7860DFC284D5B55C137F5DEFFAB881B4\GENERATE.STAMP.RULE
+setlocal
+D:\softwareHFY\Cmake\bin\cmake.exe -SX:/GitHub/leveldb-master/leveldb -BX:/GitHub/leveldb-master/leveldb/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file X:/GitHub/leveldb-master/leveldb/build/leveldb.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

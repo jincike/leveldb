@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckCXXCompilerFlag.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindGit.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+D:/softwareHFY/Cmake/share/cmake-3.20/Modules/FindThreads.cmake
+X:/GitHub/leveldb-master/leveldb/third_party/benchmark/CMakeLists.txt
+X:/GitHub/leveldb-master/leveldb/third_party/benchmark/cmake/AddCXXCompilerFlag.cmake
+X:/GitHub/leveldb-master/leveldb/third_party/benchmark/cmake/CXXFeatureCheck.cmake
+X:/GitHub/leveldb-master/leveldb/third_party/benchmark/cmake/GetGitVersion.cmake
